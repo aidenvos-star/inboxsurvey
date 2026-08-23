@@ -1,0 +1,17 @@
+# Release archives and operating-system files
+*.zip
+.DS_Store
+
+# Never commit credentials, tokens, or local configuration.
+.env
+.env.*
+*.pem
+*.key
+
+# Local repair utilities and retired logo variants are not part of the public source release.
+inspect_logo_alpha.py
+repair_logo_alpha.py
+logo-mark-white.png
+logo-mark-black-transparent.png
+logo-mark-black-lime-transparent.png
+logo-mark-fitted.svg

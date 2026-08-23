@@ -1,0 +1,64 @@
+INBOXSURVEY PROPRIETARY SOURCE LICENSE
+
+Copyright (c) 2026 InboxSurvey. All rights reserved.
+
+1. Ownership
+
+The InboxSurvey source code, documentation, visual assets, branding, and all
+associated intellectual property are owned by InboxSurvey and its rights
+holders. This license does not transfer ownership of any part of the work.
+
+2. Limited review and use permission
+
+Subject to these terms, you may view, download, cache in a browser, and run an
+unmodified copy of the source solely to review the browser-local privacy design
+or to use an authorized InboxSurvey deployment for its intended purpose.
+
+3. Restricted acts
+
+Without prior written permission from InboxSurvey, you may not copy beyond the
+limited permission above, modify, adapt, translate, create derivative works
+from, redistribute, publish, sublicense, sell, rent, lease, commercially
+exploit, or make a competing service based on any part of this work. You may
+not remove or alter copyright, trademark, attribution, or license notices.
+
+4. No trademark permission
+
+This license does not grant permission to use the InboxSurvey name, logo,
+wordmark, domain names, or other brand identifiers in a way that suggests
+endorsement, affiliation, or origin.
+
+5. Third-party components and model artifacts
+
+Third-party libraries, services, model runtimes, and model artifacts remain
+subject to their own terms and licenses. This license grants no rights in those
+third-party materials. In particular, this repository does not redistribute
+the model weights referenced by the browser-local WebLLM path.
+
+6. Disclaimer
+
+THE WORK IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, NON-INFRINGEMENT, SECURITY, AVAILABILITY, OR ERROR-FREE OPERATION.
+
+7. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, INBOXSURVEY AND ITS RIGHTS
+HOLDERS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES ARISING FROM OR RELATED TO THE
+WORK OR THIS LICENSE.
+
+8. Termination
+
+Any permission granted by this license terminates automatically if you breach
+these terms. On termination, you must stop using and destroy all copies under
+your control, except copies retained where required by law.
+
+9. Reservation of rights
+
+All rights not expressly granted in this license are reserved.
+
+This license provides legal notice; it cannot technically prevent a visitor
+from inspecting or copying code delivered to their browser. Before relying on
+this license for a commercial or legal purpose, have a qualified lawyer review
+it for your jurisdiction and business model.

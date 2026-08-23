@@ -1,0 +1,97 @@
+/* InboxSurvey — Instrumental Quiet rounded refinement.
+   This file intentionally affects only stable visual surfaces; scan state and layout logic remain in index.html. */
+
+:root {
+  --surface-radius: 34px;
+  --card-radius: 22px;
+  --detail-radius: 15px;
+}
+
+.mark-panel,
+.console,
+.rail,
+.principle-art,
+.modal {
+  border-radius: var(--surface-radius);
+}
+
+.mark-panel::before {
+  border-radius: 28px;
+}
+
+.console,
+.rail {
+  box-shadow: 0 20px 44px rgba(38, 42, 37, 0.08);
+}
+
+.ledger-panel {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-top: 2px solid var(--ink);
+  border-radius: var(--surface-radius);
+  background: #fcfbf7;
+}
+
+.ledger-rail,
+.ledger-labels {
+  margin-inline: 14px;
+}
+
+#results {
+  padding: 10px 12px 12px;
+}
+
+.result-row {
+  min-height: 92px;
+  margin: 8px 0;
+  padding: 16px;
+  border: 1px solid #dfded7;
+  border-radius: var(--card-radius);
+  background: #fffefa;
+  transition: background 0.2s var(--ease-out), transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
+}
+
+.result-row:hover {
+  transform: translateY(-2px);
+  background: #f7f6f1;
+  box-shadow: 0 8px 18px rgba(38, 42, 37, 0.06);
+}
+
+.result-row:last-child {
+  margin-bottom: 0;
+}
+
+.empty {
+  min-height: 310px;
+  border: 1px solid #e1e0d9;
+  border-radius: var(--card-radius);
+  background: #fffefa;
+}
+
+.sender-initial {
+  border-radius: var(--detail-radius);
+}
+
+.modal-close {
+  border-radius: var(--detail-radius);
+}
+
+@media (max-width: 620px) {
+  :root {
+    --surface-radius: 28px;
+    --card-radius: 19px;
+  }
+
+  .ledger-rail,
+  .ledger-labels {
+    margin-inline: 10px;
+  }
+
+  #results {
+    padding: 8px;
+  }
+
+  .result-row {
+    padding: 15px 13px;
+  }
+}
